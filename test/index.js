@@ -15,7 +15,7 @@ mp3dat.stat(testFile, function(err, stats){
     
     assert(stats.duration, 'should be a truthy duration property');
     assert(stats.bitrate, 'should be a truthy bitrate property');
-    assert(stats.fizlesize, 'should be a truthy filesize property');
+    assert(stats.filesize, 'should be a truthy filesize property');
     assert(stats.timestamp, 'should be a truthy timestamp property');
     assert(stats.timesig, 'should be a truthy timesig property');
     
