@@ -1,17 +1,24 @@
 
 var assert = require('assert');
+var fs = require('fs');
 var should = require('should');
 var mp3dat = require('../index.js');
+var mp3dat2 = mp3dat.spawnInstance();
 var testFile = 'test/test.mp3';
-var util = require('util');
 
-mp3dat = mp3dat();
+
+
 
 assert(mp3dat, 'mp3dat failed to load');
 assert(mp3dat.stat, 'there should be a stat method');
 assert(mp3dat.stat instanceof Function, 'stat should be a Function');
+mp3dat.should.have.property('statStream');
+mp3dat.statStream.should.be.an.instanceof(Function);
 
-mp3dat.stat(testFile, function(err, stats){
+mp3dat.statStream({stream: fs.createReadStream(testFile), size: fs.statSync(testFile).size}, cb);
+mp3dat2.stat(testFile, cb);
+
+function cb(err, stats) {
     assert.ifError(err);
     // expected properties
     
@@ -43,4 +50,4 @@ mp3dat.stat(testFile, function(err, stats){
     assert(stats.duration.milliseconds < 1000, 'duration.milliseconds should be no greater than 999');
     
     console.log('All tests passed');
-});
+}
