@@ -4,12 +4,11 @@ var should = require('should');
 var mp3dat = require('../index.js');
 var testFile = 'test/test.mp3';
 var util = require('util');
-console.log(util.inspect(mp3dat));
 
-
+mp3dat = mp3dat();
 
 assert(mp3dat, 'mp3dat failed to load');
-assert(mp3dat.stat, 'there should be a stat methnpod');
+assert(mp3dat.stat, 'there should be a stat method');
 assert(mp3dat.stat instanceof Function, 'stat should be a Function');
 
 mp3dat.stat(testFile, function(err, stats){
