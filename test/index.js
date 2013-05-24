@@ -3,6 +3,9 @@ var assert = require('assert');
 var should = require('should');
 var mp3dat = require('../index.js');
 var testFile = 'test/test.mp3';
+var util = require('util');
+console.log(util.inspect(mp3dat));
+
 
 
 assert(mp3dat, 'mp3dat failed to load');
