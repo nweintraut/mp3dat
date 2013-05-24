@@ -36,3 +36,5 @@
 {"ts":1369429484411,"patch":[[{"diffs":[[0,"elf = this;\n"],[1,"    stream = self.stream || fs.createReadStream(self.f);\n"],[0,"    fs.creat"]],"start1":1290,"start2":1290,"length1":24,"length2":81},{"diffs":[[0,"e);\n"],[-1,"            lib\n"],[0,"    "]],"start1":3618,"start2":3618,"length1":24,"length2":8}]],"length":6330,"saved":false}
 {"ts":1369429497993,"patch":[[{"diffs":[[0,"    "],[-1,"fs.createReadStream(self.f)"],[1,"stream"],[0,"\n   "]],"start1":1359,"start2":1359,"length1":35,"length2":14}]],"length":6309,"saved":false}
 {"ts":1369429503201,"patch":[[{"diffs":[[0,"= this;\n    "],[1,"var "],[0,"stream = sel"]],"start1":1294,"start2":1294,"length1":24,"length2":28}]],"length":6313,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1369429977476,"patch":[[{"diffs":[[0,"\n        });"],[1,"git"],[0,"\n};\n\nMp3dat."]],"start1":1865,"start2":1865,"length1":24,"length2":27}]],"length":6316,"saved":false}
+{"ts":1369430004286,"patch":[[{"diffs":[[0," });"],[-1,"git"],[0,"\n};\n"]],"start1":1873,"start2":1873,"length1":11,"length2":8}]],"length":6313,"saved":false}
