@@ -1,0 +1,19 @@
+{
+    "author": "Neil Baby <neil@baby.com> (http://bucksdeluxe.com)",
+    "name": "mp3dat",
+    "description": "Practice stuff",
+    "version": "0.0.1",
+    "homepage:" : {
+        "type" : "git",
+        "url" : "git://github.com/nweintraut/mp3dat.git"
+    },
+    "main" : "./lib/index.js",
+    "scripts" : {
+        "test": "node test"
+    },
+    "engines":{
+        "node": "~0.6.13"
+    },
+    "dependencies": {},
+    "devDependencies" : {}
+}
