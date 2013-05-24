@@ -1,8 +1,8 @@
 {
     "author": "Neil Baby <neil@baby.com> (http://bucksdeluxe.com)",
-    "name": "mp3dat",
+    "name": "mp3dat333",
     "description": "Practice stuff",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "homepage:" : {
         "type" : "git",
         "url" : "git://github.com/nweintraut/mp3dat333.git"
