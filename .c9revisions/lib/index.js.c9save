@@ -48,3 +48,4 @@
 {"ts":1369431882412,"patch":[[{"diffs":[[0,"ror(errT"],[-1,"e"],[0,"xt)); re"]],"start1":4555,"start2":4555,"length1":17,"length2":16}]],"length":7151,"saved":false}
 {"ts":1369431885070,"patch":[[{"diffs":[[0,"nd size'"],[1,";"],[0,"\n       "]],"start1":4513,"start2":4513,"length1":16,"length2":17}]],"length":7152,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1369432365676,"patch":[[{"diffs":[[0,"_compile"],[1,".call"],[0,"(self, e"]],"start1":4742,"start2":4742,"length1":16,"length2":21}]],"length":7157,"saved":false}
+{"ts":1369432509043,"patch":[[{"diffs":[[0,"ize = opts.size;"],[1,"git"],[0,"\n    self.f = op"]],"start1":3976,"start2":3976,"length1":32,"length2":35}]],"length":7160,"saved":false}
