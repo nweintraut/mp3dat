@@ -1,0 +1,2 @@
+{"ts":1369423326496,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1369423328345,"patch":[[{"diffs":[[1,".DS_Store\nlib-cov\n*.seed\n*.log\n*.csv\n*.dat\n*.out\n*.pid\n*.gz\nnode_modules/\nconf/\npids\nlogs\nresults"]],"start1":0,"start2":0,"length1":0,"length2":97}]],"length":97,"saved":false}
