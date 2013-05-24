@@ -4,7 +4,7 @@ var fs = require('fs');
 var form = fs.readFileSync('./examples/put_upload_form.html');
 http.createServer(function(req, res){
     if(req.method === "PUT") {
-        mp3dat.statStream({stream: req, size: req.headers['content-length']}, function(err, stats) {
+        mp3dat.stat({stream: req, size: req.headers['content-length']}, function(err, stats) {
             if(err) {console.log(err); return;}
             console.log(stats);
         });

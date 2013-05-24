@@ -8,10 +8,7 @@ if(!process.argv[2]) {
 }
 var mp3dat = require('./lib');
 process.stdin.resume();
-mp3dat.statStream({stream : process.stdin, size: process.argv[2]}, function(err, stats) {
-    if (err) {console.log(err);}
-    console.log(stats);
-});
+mp3dat.stat({stream : process.stdin, size: process.argv[2]});
 
 
 
