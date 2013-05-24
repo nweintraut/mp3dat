@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "homepage:" : {
         "type" : "git",
-        "url" : "git://github.com/nweintraut/mp3dat.git"
+        "url" : "git://github.com/nweintraut/mp3dat3.git"
     },
     "main" : "./lib/index.js",
     "scripts" : {
